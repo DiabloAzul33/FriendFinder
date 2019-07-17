@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://code.jquery.com/jquery.js"></script>
+
+    <title>Document</title>
+</head>
+<body>
+    <h1>Survey Time</h1>
+    <p>Do you enjoy dogs?</p>
+    <select id="q1">
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+        <option>5</option>
+    </select>
+    <button id="submit">Submit</button>
+
+
+</body>
+<script>
+    $("#submit").on("click", function() {
+        var q1 = $("#q1").val();
+        console.log("survey submitted!");
+        console.log(q1);
+        $.post("/api/friends", q1, function(data) {
+            console.log(data);
+        });
+});
+</script>
+</html>
