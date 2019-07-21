@@ -18,10 +18,9 @@
         <option>4 Pretty regularly</option>
         <option>5 Always!</option>
     </select>
-    <button id="submit">Submit</button>
 
     <p>2-Do you hate filling out surveys?</p>
-    <select id="q1">
+    <select id="q2">
         <option>1 Absolutely not!</option>
         <option>2 Not really</option>
         <option>3 Sometimes...</option>
@@ -30,7 +29,7 @@
     </select>
  
     <p>3-Are you a fan of eating Scooby Snax?</p>
-    <select id="q1">
+    <select id="q3">
         <option>1 Absolutely not!</option>
         <option>2 Not really</option>
         <option>3 Sometimes...</option>
@@ -39,7 +38,7 @@
     </select>
  
     <p>4-Would you be okay with a dog as your best friend?</p>
-    <select id="q1">
+    <select id="q4">
         <option>1 Absolutely not!</option>
         <option>2 Not really</option>
         <option>3 Sometimes...</option>
@@ -48,7 +47,7 @@
     </select>
  
     <p>5-Would you consider yourself good with computers?</p>
-    <select id="q1">
+    <select id="q5">
         <option>1 Absolutely not!</option>
         <option>2 Not really</option>
         <option>3 Sometimes...</option>
@@ -57,7 +56,7 @@
     </select>
  
     <p>6-Would people consider you brave?</p>
-    <select id="q1">
+    <select id="q6">
         <option>1 Absolutely not!</option>
         <option>2 Not really</option>
         <option>3 Sometimes...</option>
@@ -66,7 +65,7 @@
     </select>
  
     <p>7-Do you scare easily?</p>
-    <select id="q1">
+    <select id="q7">
         <option>1 Absolutely not!</option>
         <option>2 Not really</option>
         <option>3 Sometimes...</option>
@@ -75,7 +74,7 @@
     </select>
  
     <p>8-Is fashion a priority in your daily routine?</p>
-    <select id="q1">
+    <select id="q8">
         <option>1 Absolutely not!</option>
         <option>2 Not really</option>
         <option>3 Sometimes...</option>
@@ -84,7 +83,7 @@
     </select>
  
     <p>9-Are you willing to engage in risky or potentially dangerous behavior?</p>
-    <select id="q1">
+    <select id="q9">
         <option>1 Absolutely not!</option>
         <option>2 Not really</option>
         <option>3 Sometimes...</option>
@@ -93,23 +92,34 @@
     </select>
  
     <p>10-Do you enjoy a good mystery?</p>
-    <select id="q1">
+    <select id="q10">
         <option>1 Absolutely not!</option>
         <option>2 Not really</option>
         <option>3 Sometimes...</option>
         <option>4 Pretty regularly</option>
         <option>5 Always!</option>
     </select>
- 
+
+    <button id="submit">Submit Survey</button>
+
 </body>
 <script>
     $("#submit").on("click", function() {
         var q1 = $("#q1").val();
+        var q2 = $("#q2").val();
+        var q3 = $("#q3").val();
+        var q4 = $("#q4").val();
+        var q5 = $("#q5").val();
+        var q6 = $("#q6").val();
+        var q7 = $("#q7").val();
+        var q8 = $("#q8").val();
+        var q9 = $("#q9").val();
+        var q10 = $("#q10").val();
         console.log("survey submitted!");
         console.log(q1);
-        $.post("/api/friends", q1, function(data) {
+        $.post("/api/friends", q1,q2,q3,q4,q5,q6,q7,q8,q9,q10, function(data) {
             console.log(data);
         });
-});
+    });
 </script>
 </html>

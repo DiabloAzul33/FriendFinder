@@ -1,7 +1,7 @@
 
 var friends = {
     "name":"Scooby Doo",
-    "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+    "photo":"https://upload.wikimedia.org/wikipedia/en/thumb/5/53/Scooby-Doo.png/150px-Scooby-Doo.png",
     "scores":[
         5,
         1,
@@ -16,8 +16,8 @@ var friends = {
       ]
   },
   {
-    "name":"Velma Dinkl",
-    "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+    "name":"Daphne Blake",
+    "photo":"https://upload.wikimedia.org/wikipedia/en/1/1d/Daphne_Blake.png",
     "scores":[
         5,
         1,
@@ -32,8 +32,8 @@ var friends = {
       ]
   },
   {
-    "name":"Scooby Doo",
-    "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+    "name":"Velma Dinkley",
+    "photo":"https://upload.wikimedia.org/wikipedia/en/thumb/9/9d/Velma_Dinkley.png/150px-Velma_Dinkley.png",
     "scores":[
         5,
         1,
@@ -48,8 +48,8 @@ var friends = {
       ]
   },
   {
-    "name":"Scooby Doo",
-    "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+    "name":"Shaggy Rogers",
+    "photo":"https://upload.wikimedia.org/wikipedia/en/8/87/ShaggyRogers.png",
     "scores":[
         5,
         1,
@@ -64,8 +64,8 @@ var friends = {
       ]
   },
   {
-    "name":"Scooby Doo",
-    "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+    "name":"Fred Jones",
+    "photo":"https://upload.wikimedia.org/wikipedia/en/4/47/Fred_Jones.png",
     "scores":[
         5,
         1,
@@ -80,8 +80,8 @@ var friends = {
       ]
   },
   {
-    "name":"Scooby Doo",
-    "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+    "name":"Scrappy Doo",
+    "photo":"https://images-na.ssl-images-amazon.com/images/I/41Gijd%2BdomL.jpg",
     "scores":[
         5,
         1,
@@ -94,6 +94,6 @@ var friends = {
         4,
         1
       ]
-  }
+  };
 
 module.exports = friends
