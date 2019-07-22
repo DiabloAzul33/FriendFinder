@@ -1,7 +1,7 @@
 
 var friends = [{
     "name":"Scoobert aka 'Scooby' Doo",
-    "photo":"https://upload.wikimedia.org/wikipedia/en/thumb/5/53/Scooby-Doo.png/150px-Scooby-Doo.png",
+    "photo":"http://clipart.toonarific.com/data/media/100/scoob004.gif",
     "scores":[
         3,
         5,
@@ -17,7 +17,7 @@ var friends = [{
   ,
   {
     "name":"Daphne Blake",
-    "photo":"https://upload.wikimedia.org/wikipedia/en/1/1d/Daphne_Blake.png",
+    "photo":"http://clipart.toonarific.com/data/media/97/daphne001.gif",
     "scores":[
         5,
         1,
@@ -33,7 +33,7 @@ var friends = [{
   },
   {
     "name":"Velma Dinkley",
-    "photo":"https://upload.wikimedia.org/wikipedia/en/thumb/9/9d/Velma_Dinkley.png/150px-Velma_Dinkley.png",
+    "photo":"http://clipart.toonarific.com/data/media/102/velma001.gif",
     "scores":[
         2,
         1,
@@ -49,7 +49,7 @@ var friends = [{
   },
   {
     "name":"Shaggy Rogers",
-    "photo":"https://upload.wikimedia.org/wikipedia/en/8/87/ShaggyRogers.png",
+    "photo":"http://clipart.toonarific.com/data/media/101/shaggy001.gif",
     "scores":[
         1,
         5,
@@ -80,8 +80,8 @@ var friends = [{
       ]
   },
   {
-    "name":"Scrapper aka 'Scrappy' Doo",
-    "photo":"https://images-na.ssl-images-amazon.com/images/I/41Gijd%2BdomL.jpg",
+    "name":"Scrapper aka 'Scrappy' Cornelius Dapper Doo",
+    "photo":"https://hobbydb-production.s3.amazonaws.com/processed_uploads/subject_photo/subject_photo/image/11775/1457807272-22630-9097/Sc.png",
     "scores":[
         3,
         5,
