@@ -2,6 +2,7 @@ var express = require("express");
 var path = require("path");
 var friends = require("./app/data/friends.js")
 var app = express();
+var PORT = process.env.PORT || 3000;
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
@@ -42,6 +43,6 @@ app.post("/api/friends", function(req, res) {
 
 
 
-app.listen(3000, function() {
-    console.log("Listening on port 3000");
+app.listen(PORT, function() {
+    console.log("Listening on" + PORT);
 });
